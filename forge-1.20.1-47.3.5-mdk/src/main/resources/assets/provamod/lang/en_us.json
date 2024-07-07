@@ -1,3 +1,9 @@
 {
-  "item.provamod.zaffiro" : "Zaffiro"
+  "item.provamod.zaffiro" : "Zaffiro",
+  "item.provamod.zaffiro_puro" : "Zaffiro Grezzo",
+
+  "block.provamod.zaffiro_blocco": "Blocco di Zaffiro",
+  "block.provamod.zaffiro_grezzo_blocco": "Blocco di Zaffiro Grezzo",
+
+  "creativetab.prova_tab" : "Zaffiri"
 }

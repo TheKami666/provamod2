@@ -14,6 +14,9 @@ public class ModItems {
     //creare un Oggetto:
     public static final RegistryObject<Item> ZAFFIRO = ITEMS.register("zaffiro",
             ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZAFFIRO_PURO = ITEMS.register("zaffiro_puro",
+            ()-> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
