@@ -43,6 +43,7 @@ public class MetalDetectorItem extends Item {
 
         //togliamo la "vita" all'oggetto, in modo tale che dopo tot usi si rompa:
         pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(), player -> player.broadcastBreakEvent(player.getUsedItemHand()));
+        //InteractionResult.SUCCESS; è per avere l'animazione della mano.
         return InteractionResult.SUCCESS;
     }
 

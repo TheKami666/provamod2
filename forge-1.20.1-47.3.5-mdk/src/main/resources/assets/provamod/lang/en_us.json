@@ -11,5 +11,7 @@
   "block.provamod.zaffiro_minerale": "Minerale di Zaffiro",
   "block.provamod.zaffiro_minerale_deepslate": "Minerale di Zaffiro delle Profondità",
   "block.provamod.zaffiro_minerale_nether": "Minerale di Zaffiro del Nether",
-  "block.provamod.zaffiro_minerale_end": "Minerale di Zaffiro dell'End"
+  "block.provamod.zaffiro_minerale_end": "Minerale di Zaffiro dell'End",
+
+  "block.provamod.soundblock": "Blocco Sonoro"
 }

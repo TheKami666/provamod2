@@ -14,6 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.tozzifan6717.provamod.Item.ModItems;
 import java.util.function.Supplier;
 import net.tozzifan6717.provamod.ProvaMod;
+import net.tozzifan6717.provamod.block.custom.SoundBlock;
 
 
 public class ModBlocks {
@@ -36,6 +37,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK).strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> ZAFFIRO_MINERALE_END = registerBlock("zaffiro_minerale_end",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
+
+    public static final RegistryObject<Block> SOUNDBLOCK = registerBlock("soundblock",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 

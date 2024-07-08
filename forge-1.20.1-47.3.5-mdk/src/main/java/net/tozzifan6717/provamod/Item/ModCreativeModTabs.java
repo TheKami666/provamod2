@@ -34,6 +34,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ZAFFIRO_MINERALE_DEEPSLATE.get());
                         pOutput.accept(ModBlocks.ZAFFIRO_MINERALE_NETHER.get());
                         pOutput.accept(ModBlocks.ZAFFIRO_MINERALE_END.get());
+                        pOutput.accept(ModBlocks.SOUNDBLOCK.get());
 
                     })
                     .build());
