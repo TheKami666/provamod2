@@ -13,7 +13,7 @@
   "block.provamod.zaffiro_minerale_end": "Minerale di Zaffiro dell'End",
   "block.provamod.soundblock": "Blocco Sonoro",
 
-  "tooltip.provamod.metal_detector.tooltip": "Cerca del ferro sotto il blocco cliccato.",
+  "tooltip.provamod.metal_detector.tooltip": "Cerca del Metallo sotto il blocco cliccato.",
   "tooltip.provamod.soundblock.tooltip": "Produce uno strano suono all'interazione.",
 
   "creativetab.prova_tab" : "MOD"
