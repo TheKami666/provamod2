@@ -26,6 +26,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ZAFFIRO.get());
                         pOutput.accept(ModItems.ZAFFIRO_PURO.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.FRAGOLA.get());
+                        pOutput.accept(ModItems.PIGNA.get());
 
                         pOutput.accept(ModBlocks.ZAFFIRO_BLOCCO.get());
                         pOutput.accept(ModBlocks.ZAFFIRO_GREZZO_BLOCCO.get());
