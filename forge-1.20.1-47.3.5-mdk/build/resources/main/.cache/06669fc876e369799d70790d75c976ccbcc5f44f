@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-10T16:16:27.4201883	Tags for minecraft:block mod id provamod
+502624e026c3523b3ee52346c85d2efac972964b data/minecraft/tags/blocks/mineable/pickaxe.json
+502624e026c3523b3ee52346c85d2efac972964b data/minecraft/tags/blocks/needs_iron_tool.json
+d113883a451b2ee55ffde7368322486314d43e8d data/provamod/tags/blocks/metal_detector_valuables.json

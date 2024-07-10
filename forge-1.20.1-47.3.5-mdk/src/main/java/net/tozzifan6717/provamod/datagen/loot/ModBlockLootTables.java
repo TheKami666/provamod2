@@ -25,7 +25,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.ZAFFIRO_BLOCCO.get());
         this.dropSelf(ModBlocks.ZAFFIRO_GREZZO_BLOCCO.get());
-        //this.dropSelf(ModBlocks.SOUNDBLOCK.get());
+        this.dropSelf(ModBlocks.SOUNDBLOCK.get());
 
         this.add(ModBlocks.ZAFFIRO_MINERALE.get(),
                 block -> createOreDrop(ModBlocks.ZAFFIRO_MINERALE.get(), ModItems.ZAFFIRO_PURO.get()));

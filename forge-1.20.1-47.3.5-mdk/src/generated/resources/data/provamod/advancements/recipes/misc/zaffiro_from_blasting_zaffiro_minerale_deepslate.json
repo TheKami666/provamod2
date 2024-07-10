@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "provamod:zaffiro_from_blasting_zaffiro_minerale_deepslate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zaffiro_minerale_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "provamod:zaffiro_minerale_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zaffiro_minerale_deepslate",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "provamod:zaffiro_from_blasting_zaffiro_minerale_deepslate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

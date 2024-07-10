@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "zaffiro",
+  "ingredient": {
+    "item": "provamod:zaffiro_minerale_end"
+  },
+  "result": "provamod:zaffiro"
+}
