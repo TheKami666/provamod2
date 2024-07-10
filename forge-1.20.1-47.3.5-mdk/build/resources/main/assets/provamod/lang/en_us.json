@@ -13,6 +13,16 @@
   "block.provamod.zaffiro_minerale_end": "Minerale di Zaffiro dell'End",
   "block.provamod.soundblock": "Blocco Sonoro",
 
+  "block.provamod.zaffiro_scale": "Scale di Zaffiro",
+  "block.provamod.zaffiro_slab": "Lastra di Zaffiro",
+  "block.provamod.zaffiro_bottone": "Pulsante di Zaffiro",
+  "block.provamod.zaffiro_pressure_plate": "Pedana a Pressione di Zaffiro",
+  "block.provamod.zaffiro_fence": "Staccionata di Zaffiro",
+  "block.provamod.zaffiro_fence_gate": "Cancello di Zaffiro",
+  "block.provamod.zaffiro_muro": "Muro di Zaffiro",
+  "block.provamod.zaffiro_porta": "Porta di Zaffiro",
+  "block.provamod.zaffiro_botola": "Botola di Zaffiro",
+
   "tooltip.provamod.metal_detector.tooltip": "Cerca del Metallo sotto il blocco cliccato.",
   "tooltip.provamod.soundblock.tooltip": "Produce uno strano suono all'interazione.",
 

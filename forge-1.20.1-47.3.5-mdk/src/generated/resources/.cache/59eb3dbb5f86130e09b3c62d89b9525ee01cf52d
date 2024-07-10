@@ -1,8 +1,17 @@
-// 1.20.1	2024-07-10T16:16:27.4212276	Loot Tables
+// 1.20.1	2024-07-11T00:27:31.8078202	Loot Tables
 8351dbdde660a6a46a2918de1e492ef872b1622e data/provamod/loot_tables/blocks/soundblock.json
 4b1078a27a8ceb7c3e0401d3b415ed63b5ea4e66 data/provamod/loot_tables/blocks/zaffiro_blocco.json
+2e429c754284237ae8f40f803ba09644d5f66d50 data/provamod/loot_tables/blocks/zaffiro_botola.json
+67c020e9610ef448c27f90e91599509f871825d1 data/provamod/loot_tables/blocks/zaffiro_bottone.json
+eee672a250832e045e8c727b8776fb6037da1a8f data/provamod/loot_tables/blocks/zaffiro_fence.json
+fcb30069992eec0e48830b3669ab929e7ccba7b9 data/provamod/loot_tables/blocks/zaffiro_fence_gate.json
 861bba859d61d286b7ef4e509762b98f810bc88d data/provamod/loot_tables/blocks/zaffiro_grezzo_blocco.json
 d643f7643d33874356f5e030caf8c3026afa755e data/provamod/loot_tables/blocks/zaffiro_minerale.json
 ffb86f0c6e061b77b492cc0c0b129d5b4f430b89 data/provamod/loot_tables/blocks/zaffiro_minerale_deepslate.json
 f994c49e933b7a6d0b12fa84d16e25a5250e4d2c data/provamod/loot_tables/blocks/zaffiro_minerale_end.json
 a68db76f323a719da5b5f952c7aefe2502a9891f data/provamod/loot_tables/blocks/zaffiro_minerale_nether.json
+798b3436d534a53de8061d70e349eb6b5827085b data/provamod/loot_tables/blocks/zaffiro_muro.json
+ff01c5d0af5f250ddebf3576574257249d854937 data/provamod/loot_tables/blocks/zaffiro_porta.json
+ab757d220a5f5cd87bead7608a87a3b98ade7aca data/provamod/loot_tables/blocks/zaffiro_pressure_plate.json
+29a9140861fd9f2f88347d4f017015d43611ced3 data/provamod/loot_tables/blocks/zaffiro_scale.json
+c3583d0e52bde17df5d9e4b75f0843931f67c71a data/provamod/loot_tables/blocks/zaffiro_slab.json

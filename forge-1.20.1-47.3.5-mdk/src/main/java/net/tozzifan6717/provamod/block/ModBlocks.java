@@ -1,12 +1,12 @@
 package net.tozzifan6717.provamod.block;
 
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -40,6 +40,31 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOUNDBLOCK = registerBlock("soundblock",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    //blocchi "speciali" come scale, trapdoor, porte ecc...
+    public static final RegistryObject<Block> ZAFFIRO_SCALE = registerBlock("zaffiro_scale",
+            () -> new StairBlock(()-> ModBlocks.ZAFFIRO_BLOCCO.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> ZAFFIRO_SLAB = registerBlock("zaffiro_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> ZAFFIRO_BOTTONE = registerBlock("zaffiro_bottone",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON), BlockSetType.IRON, 10, true));
+    public static final RegistryObject<Block> ZAFFIRO_PRESSURE_PLATE = registerBlock("zaffiro_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> ZAFFIRO_FENCE = registerBlock("zaffiro_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> ZAFFIRO_FENCE_GATE = registerBlock("zaffiro_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+    public static final RegistryObject<Block> ZAFFIRO_MURO = registerBlock("zaffiro_muro",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> ZAFFIRO_PORTA = registerBlock("zaffiro_porta",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+    public static final RegistryObject<Block> ZAFFIRO_BOTOLA = registerBlock("zaffiro_botola",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+
 
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "provamod:block/zaffiro_blocco"
+  }
+}

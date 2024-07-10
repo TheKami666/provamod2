@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "provamod:block/zaffiro_slab"
+    },
+    "type=double": {
+      "model": "provamod:block/zaffiro_blocco"
+    },
+    "type=top": {
+      "model": "provamod:block/zaffiro_slab_top"
+    }
+  }
+}

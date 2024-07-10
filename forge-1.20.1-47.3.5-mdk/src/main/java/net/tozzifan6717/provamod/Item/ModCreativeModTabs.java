@@ -38,6 +38,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ZAFFIRO_MINERALE_END.get());
                         pOutput.accept(ModBlocks.SOUNDBLOCK.get());
 
+                        pOutput.accept(ModBlocks.ZAFFIRO_SCALE.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_SLAB.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_BOTTONE.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_FENCE.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_MURO.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_PORTA.get());
+                        pOutput.accept(ModBlocks.ZAFFIRO_BOTOLA.get());
+
                     })
                     .build());
 

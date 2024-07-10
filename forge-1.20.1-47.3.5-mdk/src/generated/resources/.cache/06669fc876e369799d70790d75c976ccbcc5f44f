@@ -1,4 +1,7 @@
-// 1.20.1	2024-07-10T16:16:27.4201883	Tags for minecraft:block mod id provamod
+// 1.20.1	2024-07-11T00:27:31.8058904	Tags for minecraft:block mod id provamod
+a4096d9ced896223cd8e9ede41bede745a33a07d data/minecraft/tags/blocks/fences.json
+8c714d3e62eea1bb20eaa9646b39558e99ded436 data/minecraft/tags/blocks/fence_gates.json
 502624e026c3523b3ee52346c85d2efac972964b data/minecraft/tags/blocks/mineable/pickaxe.json
 502624e026c3523b3ee52346c85d2efac972964b data/minecraft/tags/blocks/needs_iron_tool.json
+558705c3789803b9ab18bf39756feed80866331e data/minecraft/tags/blocks/walls.json
 d113883a451b2ee55ffde7368322486314d43e8d data/provamod/tags/blocks/metal_detector_valuables.json

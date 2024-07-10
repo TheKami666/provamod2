@@ -27,6 +27,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ZAFFIRO_GREZZO_BLOCCO.get());
         this.dropSelf(ModBlocks.SOUNDBLOCK.get());
 
+        this.dropSelf(ModBlocks.ZAFFIRO_SCALE.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_BOTTONE.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_BOTOLA.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_FENCE.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.ZAFFIRO_MURO.get());
+
+        this.add(ModBlocks.ZAFFIRO_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ZAFFIRO_SLAB.get()));
+        this.add(ModBlocks.ZAFFIRO_PORTA.get(),
+                block -> createDoorTable(ModBlocks.ZAFFIRO_PORTA.get()));
+
         this.add(ModBlocks.ZAFFIRO_MINERALE.get(),
                 block -> createOreDrop(ModBlocks.ZAFFIRO_MINERALE.get(), ModItems.ZAFFIRO_PURO.get()));
 

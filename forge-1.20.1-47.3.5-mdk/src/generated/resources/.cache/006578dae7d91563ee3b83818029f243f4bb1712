@@ -1,6 +1,14 @@
-// 1.20.1	2024-07-10T16:16:27.423188	Item Models: provamod
+// 1.20.1	2024-07-11T00:40:32.8937568	Item Models: provamod
 c65d17916d22a69adac1ca4bd875d969e8a9680e assets/provamod/models/item/fragola.json
 411032890aeba49d6f6a1d4b29b310528311b2de assets/provamod/models/item/metal_detector.json
 16e4893ef40de0dd4e98b9fc2f27e8db687697c6 assets/provamod/models/item/pigna.json
 70388f6834364b87e41ac6a11e4bffca601844cf assets/provamod/models/item/zaffiro.json
+10fab885744897d1d9e1dec1d3edd6752b23b3fd assets/provamod/models/item/zaffiro_bottone.json
+1121a09b7b19955e690bb1bb19251ba98a12d0b3 assets/provamod/models/item/zaffiro_fence.json
+33355793261c54dd3ac5dc176f93d3e39abb0025 assets/provamod/models/item/zaffiro_fence_gate.json
+56273b0ea93537342046a3b174ff2dce968833a1 assets/provamod/models/item/zaffiro_muro.json
+d7db64252d5eb50f41f9c9f9cfac193c8546ac72 assets/provamod/models/item/zaffiro_porta.json
+f9f712adb156bdbd5686888cc42f185052416c5b assets/provamod/models/item/zaffiro_pressure_plate.json
 e06bebd0033deeb176ae35189bae3ebf164c86d1 assets/provamod/models/item/zaffiro_puro.json
+7dba9c66a8529647d12e82db8d955e8a1c489ece assets/provamod/models/item/zaffiro_scale.json
+1bdd93498d4c260daaa5f973c2aee46653791217 assets/provamod/models/item/zaffiro_slab.json

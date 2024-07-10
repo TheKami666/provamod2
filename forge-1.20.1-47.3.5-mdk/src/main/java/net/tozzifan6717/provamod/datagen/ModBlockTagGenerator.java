@@ -51,5 +51,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ZAFFIRO_MINERALE_END.get()
                 );
 
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.ZAFFIRO_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ZAFFIRO_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.ZAFFIRO_MURO.get());
+
     }
 }
