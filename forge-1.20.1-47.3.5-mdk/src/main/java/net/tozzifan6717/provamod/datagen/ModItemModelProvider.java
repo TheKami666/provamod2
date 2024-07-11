@@ -41,11 +41,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonItem(ModBlocks.ZAFFIRO_BOTTONE, ModBlocks.ZAFFIRO_BLOCCO);
         wallItem(ModBlocks.ZAFFIRO_MURO, ModBlocks.ZAFFIRO_BLOCCO);
         trapdoorItem(ModBlocks.ZAFFIRO_BOTOLA);
-
-
-
-
-
     }
 
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
