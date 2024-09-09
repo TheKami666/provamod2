@@ -27,6 +27,9 @@ public class ModItems {
     //creare un Combustibile: (l'attributo burnTime si conta in Ticks)
     public static final RegistryObject<Item> PIGNA = ITEMS.register("pigna",
             ()-> new FuelItem(new Item.Properties(), 400));
+    //creare un item con una texture inventario 2D, in game 3D:
+    public static final RegistryObject<Item> ZAFFIRO_STAFFA = ITEMS.register("zaffiro_staffa",
+            ()-> new Item(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

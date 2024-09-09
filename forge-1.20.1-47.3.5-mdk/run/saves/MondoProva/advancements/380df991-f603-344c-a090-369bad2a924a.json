@@ -576,5 +576,11 @@
     },
     "done": true
   },
+  "provamod:recipes/misc/zaffiro": {
+    "criteria": {
+      "has_zaffiro_blocco": "2024-07-11 14:47:16 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
